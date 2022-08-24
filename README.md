@@ -1,4 +1,8 @@
-# algorithm-playground
+# Algorithm Playground
+
+This repo contains some of the algorithms I have attempted to implement. I have mostly used c++ in the implementation. On top of the implementation, I have also added the logic behind - the strategy I have used in solving it and the accompanying site that inspired that particular implementation.
+
+In some algorithms,I have  also included a breakdown of how much compute resources needed to run achieve the implementation. 
 
 I have a number of algorithms i have implemented in C++
 
