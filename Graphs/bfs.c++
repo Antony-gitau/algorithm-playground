@@ -3,12 +3,7 @@
 using namespace std;
 
 int main(){
-
-}
-
 // bfs algorithm
-
-
 int bfs (int startNode){ // the root node is the variable of this function
  queue<int> bfsQueue; //create a queue that will contain integer data type
  vector<bool> visited(n) ; //make the node as visited or not visited.
@@ -32,4 +27,5 @@ while (!bfsQueue.empty()) //as long as the queue is  not empty
      visCount +=1;
 }
 return visCount;
+}
 }
