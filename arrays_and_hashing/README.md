@@ -1,9 +1,10 @@
-This section contains a brief of the solved probems. The code is also heavily commented to allow even a beginner to follow.The intention of this section is to give a brief of the problem being solved in every code segment.
 
-1. Contain_duplicate script
-we are checking for duplicates in the a list of integers.
 
-2. anagram script
-Checking for anagrams in the two strings. An anagram simply means that the letters used in one string are also used in another string, except that they are rearranged.
+This repository contains solutions to the blind 75 problems on [Neetcode.io](https://neetcode.io) site. 
 
-3. 
+My intention is to solve these problems as outlined on [this sheet](https://docs.google.com/spreadsheets/d/1MnkzzanUtLieQAnUXSDaHtDcdTwhM9GUqLqK7eUta-o/edit#gid=0) a copy from Neetcode.io. 
+
+I intend to describe the strategy explained by Neetcode as well as my strategy or other strategies that come to my mind. 
+I will focus on using python in most implementation. However, I might use C/C++ at times.
+
+Apart from having a readme section for every solution, I will heavily comment the code to ensure that every line is understood to even a beginner.
