@@ -21,4 +21,4 @@ Approach:
 
 -> And also that the most recent (or the parenthesis at the top of the stack connects can be closed by the bracket)
 
--If the two above conditions are met, pop the bracket. 
+- If the two above conditions are met, pop the bracket. 
