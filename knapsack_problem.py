@@ -49,7 +49,7 @@ def greedy(items, maxCost, keyFunction):
                        reverse = True)
     result = []
     totalValue, totalCost = 0.0, 0.0
-    for i in range(len(itemsCopy)):
+    for i in range(len(itemsCopy)): 
 
         """
         iterate over all the items on our menu
