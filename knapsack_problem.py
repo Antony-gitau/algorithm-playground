@@ -66,6 +66,9 @@ def greedy(items, maxCost, keyFunction):
     return (result, totalValue)
 
 def testGreedy(items, constraint, keyFunction):
+    """
+    items: list, constraint: int, keyFunction: function
+    """
     taken, val = greedy(items, constraint, keyFunction)
     print('Total value of items taken =', val)
     for item in taken:
@@ -87,6 +90,9 @@ def testGreedys(foods, maxUnits):
 names = ['wine', 'beer', 'pizza', 'burger', 'fries',
          'cola', 'apple', 'donut', 'cake']
 values = [89,90,95,100,90,79,50,10]
+
 calories = [123,154,258,354,365,150,95,195]
+
 foods = buildMenu(names, values, calories)
+
 testGreedys(foods, 1000)
