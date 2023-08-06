@@ -35,3 +35,14 @@ def countdown(n):
 #test the function
 print(countdown(5))
 
+# another recursive function that prints factorial of n
+def factorial(n):
+    #base case
+    if n == 1:
+        return 1
+    #recursive case
+    else:
+        print(n)
+        return n * factorial(n-1)
+#test the function
+print(factorial(5))
